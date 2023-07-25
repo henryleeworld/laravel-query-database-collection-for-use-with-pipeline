@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
-use Illuminate\Http\Request;
-use Baro\PipelineQueryCollection\RelativeFilter;
 use Baro\PipelineQueryCollection\DateFromFilter;
 use Baro\PipelineQueryCollection\DateToFilter;
+use Baro\PipelineQueryCollection\RelativeFilter;
+use Illuminate\Http\Request;
 
 class UsersController extends Controller
 {

@@ -1,4 +1,4 @@
-# Laravel 9 使用管線查詢資料庫集合
+# Laravel 10 使用管線查詢資料庫集合
 
 引入 l3aro 的 pipeline-query-collection 套件來擴增使用管線查詢資料庫集合，很明顯篩選條件將持續增家，以及對其他查詢的相同重複篩選條件。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/WNvaSWF.png)
+![](https://i.imgur.com/B21AOdf.png)
 > 查詢第一筆符合條件的使用者電子郵件
