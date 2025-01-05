@@ -22,7 +22,6 @@ class UsersController extends Controller
             new DateFromFilter('created_at'),
             new DateToFilter('created_at'),
         ])->get();
-        //dd($users);
-        echo '電子郵件：' . $users->firstOrFail()->email . PHP_EOL;
+        echo __('Email: ') . $users->firstOrFail()->email . PHP_EOL;
     }
 }
